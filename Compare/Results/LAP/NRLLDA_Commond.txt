@@ -1,0 +1,23 @@
+python -m openne --method node2vec --input lncdis.txt --graph-format edgelist   --output node2vecpq.txt 
+python -m openne --method node2vec --input lncdis.txt --graph-format edgelist   --output node2vecpq.txt --p 0.25 --q 0.25
+
+python -m openne --method deepWalk --input lncdis.txt --graph-format edgelist   --output deepwalk.txt 
+
+python -m openne --method line --input lncdis.txt --graph-format edgelist   --output line.txt 
+
+python -m openne --method gcn --input lncdis.txt --graph-format edgelist   --output gcn.txt 
+
+python -m openne --method grarep --input lncdis.txt --graph-format edgelist   --output grarep.txt 
+
+python -m openne --method tadw --input lncdis.txt --graph-format edgelist   --output tadw.txt 
+
+python -m openne --method lle --input lncdis.txt --graph-format edgelist   --output lle.txt 
+
+python -m openne --method hope --input lncdis.txt --graph-format edgelist   --output hope.txt 
+
+python -m openne --method lap --input lncdis.txt --graph-format edgelist   --output lap.txt 
+
+python -m openne --method gf --input lncdis.txt --graph-format edgelist   --output gf.txt 
+
+python -m openne --method sdne --input lncdis.txt --graph-format edgelist   --output sdne.txt 
+
